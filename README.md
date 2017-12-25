@@ -8,8 +8,8 @@ This module simplifies the complex mongodb async flow by using Promise.
 By this module, you can use "CURD" method of mongodb API more comfortably.
 
 ## Demo
-`
-var mongoSimple = require("mogno-simple-promise");
+
+`var mongoSimple = require("mogno-simple-promise");
 
 var mydb = new mongoSimple("mongodb://localhost:27017");
 
@@ -45,8 +45,7 @@ mydb.connect("testA")
 .then(() => {
   //close the database
   return mydb.close();
-});
-`
+});`
 
 ## install
 
