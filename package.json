@@ -1,12 +1,26 @@
 {
-  "name": "title_scraper",
+  "name": "mongo-simple-promise",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "author": "shirosmith",
+  "license": "MIT",
+  "description": "Simplify the long async function flow of \"mongodb\" API by using Promise.",
+  "dependencies": {
+    "mongodb": "^3.0.1"
+  },
+  "devDependencies": {
+    "mongodb": "^3.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phantom1793/mongo-simple-promise.git"
+  },
+  "bugs": {
+    "url": "https://github.com/phantom1793/mongo-simple-promise/issues"
+  },
+  "homepage": "https://github.com/phantom1793/mongo-simple-promise#readme"
 }

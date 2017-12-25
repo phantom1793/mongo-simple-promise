@@ -1,4 +1,4 @@
-var mongoSimple = require("./mongo-simple");
+var mongoSimple = require("../index");
 
 var mydb = new mongoSimple("mongodb://localhost:27017");
 
